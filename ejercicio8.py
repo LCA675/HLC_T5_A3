@@ -1,6 +1,6 @@
 texto="Soy Laura Calle de segundo smr"
 def vocales_consonante(texto):
-    vocales="aeiouAEIOU"
+    vocales="aeiou"
     cuenta={"vocales":0, "consonantes":0}
     for caracteres in texto:
         if caracteres in vocales:
